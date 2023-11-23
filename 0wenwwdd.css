@@ -1,0 +1,90 @@
+h1{
+    text-align: center;
+}
+.test ul{
+    background-color: #999;
+   list-style: none;
+   border:black 2px solid;
+   border-radius:4px ;
+   display:flex;
+   margin:5px;
+
+}
+.test ul li:hover{
+background-color: green;
+}
+.test ul li{
+    margin-right: 10px;
+    padding:10px;
+}
+body{
+    font-size:20px ;
+    font-family: 'Courier New', Courier, monospace;
+    background:#ffffff ;
+}
+
+button{
+    cursor: pointer;
+    background-color: black;
+    color:white;
+    border:none;
+}
+.table{
+    border: 2px black solid;
+    border-radius: 5px;
+    margin:10px auto;
+    background: #999;
+    padding: 5px;
+    text-align: center;
+}
+.label1 label
+.label1 textarea{
+    width:100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #ccc;
+    color: black;
+    outline: none;
+    padding: 15 px 0 10px;
+}
+.group .label1{
+    display: inline;
+    width:50%;
+}
+.group{
+    display: flex;
+    margin-bottom: 14px;
+}
+.label1 label{
+display: block;
+font-size: 14px;
+color:#86898f;
+}
+.test{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+@media (max-width:500px){
+    body{
+        font-size: 1rem;
+        text-align: center;
+        padding: 10px;
+
+    }
+}
+.seti{
+   margin: auto;
+   
+    display: inline;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color:#86898f;
+    text-align: center;
+
+}
+.seti2{
+    margin-top: 70px;
+}
